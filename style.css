@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+:root{
+    --bg-color1:#001431;
+    --bg-color2:#f8f2e2;
+    --bg-color3: #e73232;
+    --color:#ffffff;
+    --color2:#000000;
+    --shadow1:0 10px 10px 3px  #ffffff;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lobster', cursive;
+}
+p{
+    font-family: 'Courgette', cursive; 
+}
+.navbar{
+    background: linear-gradient(90deg, #001431 61%, #f8f2e2 61%)
+}
+.nav-link{
+    color: white;
+    margin-left:10px;
+  
+}
+.nav-link:hover{
+    color: var(--color2);
+   background-color: var(--color);
+}
+.navbar1 a{
+    color: var(--color2);
+}
+.Home .container-fluid{
+    background: linear-gradient(90deg, #001431 61%, #f8f2e2 61%);
+    width: 100%;
+    height: 545px;
+}
+.Home h1{
+    color: var(--color);
+}
+.Home p{
+    color: var(--color);
+}
+#home2 .card{
+    box-shadow: 0 10px 10px 3px var(--color);
+    
+}
+
+#home2 .card:hover{
+    background-color: var(--bg-color3);
+}
+.What-We-Do{
+    background-color: var(--bg-color2);
+    margin-top: 50px;
+    height: 550px;
+}
+.What-We-Do .container{
+    padding-top: 55px;
+}
+.change{
+    background-color: var(--bg-color1);
+}
+.change h2, p{
+   color: var(--color);
+}
+
+
+.fas{
+    padding: 15px 15px;
+    background-color: var(--bg-color3);
+    border-radius: 50%;
+    color: var(--color);
+}
+.fas:hover{
+    background-color: var(--color);
+    color:var(--color2) ;
+}
+footer{
+    background-color: var(--bg-color1);
+}
+.icon{
+    color: var(--color);
+}
+.para p{
+    color: var(--color);
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+}
+.color-brand{
+    color: var(--bg-color1);
+}
+#services .card{
+    box-shadow: 0 15px 15px 3px gray;
+}
+#services img:hover{
+    transform: scale(1.025);
+}
+#news .card{
+    box-shadow: 0 15px 15px 3px gray;
+}
+
+@media (max-width:720px){
+    .navbar{
+        background: #001431;
+    }
+    .Home .container-fluid{
+        background: #001431;
+        width: 100%;
+        height: 750px;
+    }
+   
+    .Home .col-md-4{
+        padding-top: 20px;
+    }
+   
+    .What-We-Do{
+        background-color: var(--bg-color2);
+        width: 100%;
+        height: 80%;
+    }
+    .nav-link{
+        text-align: center;
+    }
+    .navbar1{
+        display: none;
+    }
+}
+    
